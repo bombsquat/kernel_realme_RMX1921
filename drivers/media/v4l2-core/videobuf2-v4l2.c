@@ -146,6 +146,7 @@ static void vb2_warn_zero_bytesused(struct vb2_buffer *vb)
 		return;
 
 	check_once = true;
+
 #ifndef VENDOR_EDIT
 //Jingcheng.Li@PSW.MM.MediaServer.Record.1445776, 2018/10/13,
 //Remove for avoiding qcom output logs asserting causes encoder or decoder crash.
